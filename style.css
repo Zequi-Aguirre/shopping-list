@@ -4,7 +4,7 @@
 }
 
 .header {
-    background-color: black;
+    background-color: rgb(36, 42, 46);
     color: white;
     /* height: 80px; */
     text-align: center;
@@ -12,7 +12,7 @@
 }
 
 .storeSelector {
-    background-color: darkslategray;
+    background-color: rgb(36, 42, 46);
     text-align: center;
     padding: 10px 0;
 }
@@ -22,7 +22,7 @@
 }
 
 body {
-    background-color: grey;
+    background-color: rgb(36, 42, 46);
 }
 
 #listBody {
@@ -53,7 +53,7 @@ body {
 }
 
 footer {
-    background-color: aquamarine;
+    background-color: rgb(36, 42, 46);
     position: fixed;
     bottom: 0;
     width: 100%;

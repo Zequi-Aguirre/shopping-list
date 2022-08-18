@@ -42,7 +42,7 @@ body {
 }
 
 .btn.btn-remove {
-    background-color: aqua;
+    background-color: red;
     margin-right: 10px;
     width: 50px;
     text-align: center;

@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    /* height: 80px; */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.storeSelector {
+    background-color: darkslategray;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#storeSelector {
+    font-size: 20px;
+}
+
+body {
+    background-color: grey;
+}
+
+#listBody {
+    position: relative;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.product div {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid red;
+}
+
+.btn.btn-remove {
+    background-color: aqua;
+    margin-right: 10px;
+    width: 50px;
+    text-align: center;
+}
+
+.product-name {
+    width: 200px;
+}
+
+footer {
+    background-color: aquamarine;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+#productName {
+    font-size: 30px;
+    width: 250px;
+}
+
+#addProductButton {
+    /* font-size: 30px; */
+    width: 80px;
+    padding: 5px;
+}

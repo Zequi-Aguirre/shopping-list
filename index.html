@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base target="_top" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!-- STYLE FOR VS CODE -->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- STYLE FOR DEPLOYMENT -->
+
+    <!-- <?!= HtmlService.createHtmlOutputFromFile('styles').getContent(); ?> -->
+
+    <title>Shopping List</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Shopping List</h1>
+    </div>
+    <div class="storeSelector">
+      <select id="storeSelector">
+        <option value="Select Store">Select Store</option>
+        <option value="Aldi">Aldi</option>
+        <option value="BJs">BJs</option>
+        <option value="Gordon">Gordon</option>
+        <option value="Publix">Publix</option>
+        <option value="Walmart">Walmart</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+    <div id="listBody"></div>
+
+    <div class="product" id="${data[i][timestampIndex]}">
+      <div class="btn btn-remove">X</div>
+      <div class="product-name"><p>${data[i][productIndex]}</p></div>
+    </div>
+
+    <footer>
+      <input type="text" id="productName" />
+      <button id="addProductButton">Add Product</button>
+    </footer>
+
+    <?!= HtmlService.createHtmlOutputFromFile('script').getContent(); ?>
+
+    <script>
+      // let data = <?!= JSON.stringify(data) ?>;
+    </script>
+  </body>
+</html>

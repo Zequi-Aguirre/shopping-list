@@ -57,33 +57,21 @@ body {
 
 }
 
-/* .product div {
-    text-align: center;
-    padding: 10px 0px 0px;
-    border: none;
-    border-radius: 10px;
-    background-color: rgb(105, 113, 112);
-    color: white;
-    width: 300px;
-    height: 40px;
-    margin-right: 20px;
-    margin-left: 5px;
-    margin-top: 3px;
-} */
 
 .btn.btn-remove {
     background-color: rgb(237, 70, 71);
     /* margin: 0px 10px; */
     padding: 15px 0;
     width: 55px;
-    font-weight: 600;
+    font-weight: 500;
     border-radius: 10px;
     margin-left: 20px;
     margin-right: 5px;
     margin-top: 3px;
     font-size: 20px;
     align-content: center;
-    color: rgb(36, 42, 46);
+    color: white;
+    /* color: rgb(36, 42, 46); */
 
 
 }
@@ -138,10 +126,19 @@ footer {
     margin-top: 50px;
     padding: 5px;
     border-radius: 100px;
-    font-size: x-large;
+    font-size: 24px;
     color: white;
     background-color: rgb(237, 70, 71);
     border: none;
 
+
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: .8;
+    /* Firefox */
+    font-family: 'Hepta Slab', serif;
 
 }

@@ -11,6 +11,9 @@
     /* height: 80px; */
     text-align: center;
     padding: 20px 0;
+    margin-top: 55px;
+    font-size: 15px;
+
 }
 
 .storeSelector {
@@ -23,16 +26,21 @@
 #storeSelector {
     font-size: 20px;
     font-family: 'Hepta Slab', serif;
-    border-radius: 10px;
+    border-radius: 7px;
     background-color: rgb(105, 113, 112);
     color: white;
-    width: 300px;
-    margin-left: 50px;
+    width: 180px;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    
 }
 
 body {
     background-color: rgb(36, 42, 46);
     font-family: 'Hepta Slab', serif;
+    
 }
 
 #listBody {
@@ -43,27 +51,32 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 10px;
+  
 }
 
 .product div {
     text-align: center;
-    padding: 20px;
+    padding: 10px 0px 0px;
     border: none;
     border-radius: 10px;
     background-color: rgb(105, 113, 112);
     color: white;
     width: 300px;
-    height: 5px;
-    margin-right: 10px;
+    height: 40px;
+    margin-right: 20px;
+    margin-left: 5px;
 }
 
 .btn.btn-remove {
     background-color: rgb(237, 70 , 71);
-    margin-right: 10px;
-    margin-left: 10px;
-    width: 5px;
+    /* margin: 0px 10px; */
+    padding: 20px;
+    width: 10px;
+    height: 10px;
     text-align: center;
     border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 5px;
 }
 
 .product-name {
@@ -72,6 +85,7 @@ body {
 }
 
 footer {
+    
     background-color: rgb(36, 42, 46);
     position: fixed;
     bottom: 0;

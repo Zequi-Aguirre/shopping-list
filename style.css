@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@300;700&display=swap')
+
 * {
     margin: 0;
     padding: 0;
@@ -14,15 +16,22 @@
 .storeSelector {
     background-color: rgb(36, 42, 46);
     text-align: center;
-    padding: 10px 0;
+    padding: 0;
+   
 }
 
 #storeSelector {
     font-size: 20px;
+    font-family: 'Hepta Slab', serif;
+    border-radius: 10px;
+    background-color: rgb(105, 113, 112);
+    color: white;
+    width: 300px;
 }
 
 body {
     background-color: rgb(36, 42, 46);
+    font-family: 'Hepta Slab', serif;
 }
 
 #listBody {
@@ -38,13 +47,20 @@ body {
 .product div {
     text-align: center;
     padding: 20px;
-    border: 1px solid red;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(105, 113, 112);
+    color: white;
+    width: 300px;
+    height: 5px;
+    margin-right: 10px;
 }
 
 .btn.btn-remove {
     background-color: red;
     margin-right: 10px;
-    width: 50px;
+    margin-left: 10px;
+    width: 5px;
     text-align: center;
 }
 
@@ -58,6 +74,7 @@ footer {
     bottom: 0;
     width: 100%;
     padding: 20px;
+    
 }
 
 #productName {
@@ -69,4 +86,5 @@ footer {
     /* font-size: 30px; */
     width: 80px;
     padding: 5px;
+    font-family: 'Hepta Slab', serif;
 }

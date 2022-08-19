@@ -109,6 +109,7 @@ footer {
     border-radius: 10px;
     background-color: rgb(105, 113, 112);
     color: white;
+    border: none;
 
 }
 
@@ -124,6 +125,7 @@ footer {
     font-size: x-large;
     color: white;
     background-color: rgb(237, 70 , 71);
+    border: none;
 
     
 }

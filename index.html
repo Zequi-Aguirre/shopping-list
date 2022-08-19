@@ -16,10 +16,12 @@
   </head>
 
   <body>
+    <div id="development">
+      <p>development</p>
+    </div>
     <div class="header">
       <h1>Shopping List</h1>
     </div>
-
     <div class="storeSelector">
       <select id="storeSelector">
         <option value="Select Store">Select Store</option>
@@ -33,15 +35,9 @@
     </div>
     <div id="listBody"></div>
 
-    <div class="product" id="${data[i][timestampIndex]}">
-      <div class="btn btn-remove">X</div>
-      <div class="product-name"><p>${data[i][productIndex]}</p></div>
-    </div>
-
     <footer>
       <input type="text" placeholder="Add new product" id="productName" />
-      <!-- <input type="text" id="productName" /> -->
-      <button id="addProductButton"> + </button>
+      <button id="addProductButton">+</button>
     </footer>
 
     <!-- <?!= HtmlService.createHtmlOutputFromFile('script').getContent(); ?> -->

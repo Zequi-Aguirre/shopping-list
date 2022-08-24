@@ -5,6 +5,17 @@
     padding: 0;
 }
 
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+
+#development {
+    background-color: red;
+  }
+
 .header {
     background-color: rgb(36, 42, 46);
     color: white;
@@ -123,7 +134,6 @@ footer {
     height: 45px;
     object-position: center;
     margin-bottom: 5px;
-    margin-top: 50px;
     padding: 5px;
     border-radius: 100px;
     font-size: 24px;
